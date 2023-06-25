@@ -1,5 +1,5 @@
 nav ul {
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     display: flex;
     flex-direction: column;
     list-style: none;
