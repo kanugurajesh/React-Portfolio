@@ -40,3 +40,16 @@ nav ul span {
     height: 3px;
     margin-bottom: 4px;
 }
+
+@media (min-width:950px) {
+    nav {
+        width: 100vw;
+        justify-content: flex-end;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+    }
+}
