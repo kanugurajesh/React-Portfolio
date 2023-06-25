@@ -1,9 +1,9 @@
 import React,{ useState } from "react";
 
 function Header() {
-    const header = document.getElementById("head")
     const [show,setshow] = useState(true)
     const clicked = () => {
+        const header = document.getElementById("head")
         header.classList.toggle("animate-pre")
         setshow(!show);
     }
