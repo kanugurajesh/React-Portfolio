@@ -18,3 +18,25 @@ nav ul span {
     opacity: 0.8;
     margin-right: 5px;
 }
+
+.animate {
+    transform: translateY(40px);
+    transition: transform 0.5s ease-in;
+}
+
+.animate-pre {
+    transform: translateY(0);
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu div {
+    width: 25px;
+    background-color: black;
+    height: 3px;
+    margin-bottom: 4px;
+}
