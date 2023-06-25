@@ -1,6 +1,7 @@
 nav ul {
     justify-content: flex-end;
     display: flex;
+    flex-direction: column;
     list-style: none;
     gap: 20px;
     padding: 40px;
@@ -12,3 +13,4 @@ nav ul span {
     opacity: 0.8;
     margin-right: 5px;
 }
+
