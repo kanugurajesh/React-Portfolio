@@ -13,6 +13,18 @@ nav ul {
     width: 250px;
 }
 
+nav ul li {
+    padding: 0;
+    padding-bottom: 10px;
+    /* transform: padding 1s ease-in-out; */
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid blue;
+    transition: padding 0.5s ease-in;
+    padding: 2px;
+}
+
 nav ul span {
     color: blue;
     opacity: 0.8;
@@ -46,7 +58,7 @@ nav ul span {
         width: 100vw;
         justify-content: flex-end;
     }
-    
+
     nav ul {
         display: flex;
         flex-direction: row;
