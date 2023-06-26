@@ -5,7 +5,16 @@ function Header() {
     const [windowsize,setWindow] = useState(false)
 
     const clicked = () => {
-        document.getElementById("sidebar").classList.toggle("hide")
+        const element = document.getElementById("sidebar")
+        if (element.classList.contains("show")) {
+            element.classList.remove("show")
+            element.classList.add("hide")
+        }else {
+            element.classList.add("show")
+            element.classList.remove("hide")
+            // element.classList.toggle("show")
+            // element.classList.toggle("hide")
+        }
         setshow(!show);
     }
 

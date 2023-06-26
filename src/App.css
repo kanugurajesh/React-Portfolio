@@ -53,9 +53,26 @@ nav ul span {
     }
 }
 
-.hide {
+.show {
     position: absolute;
     animation-name: hide-show;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show-hide{
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -160px;
+    }
+}
+
+.hide {
+    position: absolute;
+    animation-name: show-hide;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
