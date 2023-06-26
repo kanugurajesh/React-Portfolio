@@ -11,6 +11,9 @@ nav ul {
     padding: 40px;
     font-size: larger;
     width: 250px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
 }
 
 nav ul li {
