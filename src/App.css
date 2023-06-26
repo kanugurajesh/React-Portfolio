@@ -17,7 +17,6 @@ nav ul li {
     padding: 0;
     padding-bottom: 10px;
     cursor: pointer;
-    /* transform: padding 1s ease-in-out; */
 }
 
 nav ul span {
@@ -26,36 +25,12 @@ nav ul span {
     margin-right: 5px;
 }
 
-@keyframes fadeIn {
-    0%{opacity: 0;}
-    25%{opacity: 0.25;}
-    75%{opacity: 0.75;}
-    100%{opacity: 1;}
-}
-
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-  }
-
-.fade-out {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-.animate {
-    transform: translateY(40px);
-    transition: transform 0.5s ease-in;
-}
-
-.animate-pre {
-    transform: translateY(0);
-}
-
 #menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 30px;
 }
 
 #menu div {

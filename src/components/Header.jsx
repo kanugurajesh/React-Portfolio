@@ -5,9 +5,9 @@ function Header() {
     const [windowsize,setWindow] = useState(false)
 
     const clicked = () => {
-        const header = document.getElementById("head")
-        header.classList.toggle("animate-pre")
-        header.classList.toggle("fade-in")
+        // const header = document.getElementById("head")
+        // header.classList.toggle("animate-pre")
+        // header.classList.toggle("fade-in")
         setshow(!show);
     }
 
