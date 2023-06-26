@@ -64,7 +64,7 @@ function Header() {
             </ul>
             }
             {windowsize && 
-                <ul>
+                <ul id="head">
                     <li>
                         <span>&#x00D8;1.</span> &lt;about&gt;
                     </li>

@@ -40,9 +40,9 @@ nav ul span {
     top: 0;
     left: -250px;
     background-color: aquamarine;
-    /* background-color: aqua; */
     height: 100vh;
     padding: 40px;
+    padding-top: 60px;
 }
 
 @keyframes hide-show{
@@ -79,14 +79,17 @@ nav ul span {
 }
 
 @media (min-width:950px) {
-    nav {
+    #sidebar {
         width: 100vw;
-        justify-content: flex-end;
+        top: 0;
+        left: 0;
+        padding: 40px;
+        background-color: white;
     }
 
-    nav ul {
+    #head {
         display: flex;
         flex-direction: row;
-        width: 900px;
+        justify-content: end;
     }
 }
