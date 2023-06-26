@@ -8,8 +8,8 @@
 #section1-div {
     width: 230px;
     height: 230px;
-    border-right: 3px solid blue;
-    border-top: 3px solid blue;
+    border-right: 4px solid blue;
+    border-top: 4px solid blue;
     position: relative;
 }
 

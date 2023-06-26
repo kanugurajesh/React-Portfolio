@@ -43,6 +43,7 @@ nav ul span {
     height: 100vh;
     padding: 40px;
     padding-top: 60px;
+    z-index: 3;
 }
 
 @keyframes hide-show{
