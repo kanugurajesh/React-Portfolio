@@ -1,25 +1,12 @@
-nav {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    background-color: aquamarine;
-}
-
 nav ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     gap: 20px;
-    padding: 40px;
     font-size: larger;
-    width: 250px;
 }
 
 nav ul li {
-    padding: 0;
     padding-bottom: 10px;
     cursor: pointer;
 }
@@ -40,6 +27,37 @@ nav ul span {
     background-color: black;
     height: 3px;
     margin-bottom: 4px;
+}
+
+#navigate {
+    display: flex;
+    padding: 40px;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    left: -160px;
+    background-color: aqua;
+    height: 100vh;
+    padding: 40px;
+}
+
+@keyframes hide-show{
+    from {
+        left: -160px;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.hide {
+    position: absolute;
+    animation-name: hide-show;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 @media (min-width:950px) {

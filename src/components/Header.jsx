@@ -5,9 +5,7 @@ function Header() {
     const [windowsize,setWindow] = useState(false)
 
     const clicked = () => {
-        // const header = document.getElementById("head")
-        // header.classList.toggle("animate-pre")
-        // header.classList.toggle("fade-in")
+        document.getElementById("sidebar").classList.toggle("hide")
         setshow(!show);
     }
 
@@ -22,17 +20,21 @@ function Header() {
       }, [windowsize]);
 
   return (
-    <>
-        <nav>
+    <div id="navigate">
+        {!windowsize && 
+                <div id="menu" onClick={clicked}>
+                    {show &&
+                        <>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </>
+                    }
+                </div>
+        }
+        <nav id="sidebar">
             {!windowsize && 
                 <ul className="animate" id="head">
-                {show &&
-                    <li onClick={clicked} id="menu">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </li>
-                }
                 {!show &&
                     <>
                         <li onClick={clicked}>
@@ -74,7 +76,7 @@ function Header() {
                 </ul>
             }
         </nav>
-    </>
+    </div>
   )
 }
 
