@@ -16,13 +16,8 @@ nav ul {
 nav ul li {
     padding: 0;
     padding-bottom: 10px;
+    cursor: pointer;
     /* transform: padding 1s ease-in-out; */
-}
-
-nav ul li:hover {
-    border-bottom: 2px solid blue;
-    transition: padding 0.5s ease-in;
-    padding: 2px;
 }
 
 nav ul span {
@@ -30,6 +25,18 @@ nav ul span {
     opacity: 0.8;
     margin-right: 5px;
 }
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    75%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
 
 .animate {
     transform: translateY(40px);
