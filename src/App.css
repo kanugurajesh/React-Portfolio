@@ -2,8 +2,8 @@ nav {
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 10px;
+    top: 10px;
 }
 
 nav ul {
