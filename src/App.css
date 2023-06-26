@@ -2,8 +2,8 @@ nav {
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 0;
+    top: 0;
     background-color: antiquewhite;
 }
 
