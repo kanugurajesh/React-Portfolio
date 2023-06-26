@@ -35,17 +35,19 @@ nav ul span {
 }
 
 #sidebar {
+    width: 250px;
     position: absolute;
     top: 0;
-    left: -160px;
-    background-color: aqua;
+    left: -250px;
+    background-color: aquamarine;
+    /* background-color: aqua; */
     height: 100vh;
     padding: 40px;
 }
 
 @keyframes hide-show{
     from {
-        left: -160px;
+        left: -250px;
     }
 
     to {
@@ -62,11 +64,11 @@ nav ul span {
 
 @keyframes show-hide{
     from {
-        left: 0;
+        left: 0px;
     }
 
     to {
-        left: -160px;
+        left: -250px;
     }
 }
 
@@ -74,7 +76,6 @@ nav ul span {
     position: absolute;
     animation-name: show-hide;
     animation-duration: 0.5s;
-    animation-fill-mode: forwards;
 }
 
 @media (min-width:950px) {

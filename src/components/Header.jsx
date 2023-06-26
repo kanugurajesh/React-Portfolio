@@ -12,8 +12,6 @@ function Header() {
         }else {
             element.classList.add("show")
             element.classList.remove("hide")
-            // element.classList.toggle("show")
-            // element.classList.toggle("hide")
         }
         setshow(!show);
     }
