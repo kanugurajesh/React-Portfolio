@@ -1,0 +1,23 @@
+#section1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+}
+
+#section1-div {
+    width: 230px;
+    height: 230px;
+    border-right: 3px solid blue;
+    border-top: 3px solid blue;
+    position: relative;
+}
+
+#section1-img {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    padding: 1px;
+}
