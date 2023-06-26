@@ -1,6 +1,9 @@
 nav {
     display: flex;
     justify-content: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 nav ul {
@@ -11,9 +14,6 @@ nav ul {
     padding: 40px;
     font-size: larger;
     width: 250px;
-    position: absolute;
-    left: 30px;
-    top: 30px;
 }
 
 nav ul li {
@@ -31,9 +31,6 @@ nav ul span {
 #menu {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 30px;
-    top: 30px;
 }
 
 #menu div {
