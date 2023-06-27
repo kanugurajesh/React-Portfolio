@@ -4,7 +4,7 @@
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
     justify-items: center;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -26,7 +26,7 @@
 }
 
 #section1 h1 {
-    padding: 15px;
+    padding: 40px 15px 25px 15px; /* top right bottom left */
     max-width: 300px;
     text-align: center;
     font-size: xx-large;
@@ -38,4 +38,13 @@
 
 #section1 h1 span {
     color: blue;
+}
+
+#section1 p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 40px;
+    font-size: larger;
+    max-width: 600px;
 }
