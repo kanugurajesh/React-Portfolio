@@ -82,7 +82,7 @@ nav ul span {
     animation-duration: 0.5s;
 }
 
-@media (min-width:950px) {
+@media (min-width:951px) {
     #sidebar {
         width: 100vw;
         height: auto;
