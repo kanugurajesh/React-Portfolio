@@ -3,7 +3,6 @@ import Main from './components/Main'
 import React,{ useState,useEffect } from "react";
 import './App.css'
 
-
 function App() {
   const [windowsize,setWindow] = useState(false)
   useEffect(() => {

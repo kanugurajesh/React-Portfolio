@@ -1,0 +1,35 @@
+#section2 {
+    width: 100vw;
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+#section2 h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#section2 span {
+    color: blue;
+    font-weight: 900;
+}
+
+#section2 h3 {
+    font-size: 1.6rem;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    text-align: right;
+}
+
+#section2 h4 {
+    font-size: 1.4rem;
+}

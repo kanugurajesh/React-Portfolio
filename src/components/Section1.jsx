@@ -4,6 +4,7 @@ function Section1({windowsize}) {
       <div id="section1-div">
         <img src="https://ik.imagekit.io/hbzknb1hm/rajesh1.jpeg?updatedAt=1687880887870" alt="" id="section1-img"/>
       </div>
+      
       {windowsize &&
         <h1>Hi,I'm <span>Rajesh <br /> Full-Stack <br /> Web Developer</span> </h1>
       }
