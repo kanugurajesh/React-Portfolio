@@ -5,7 +5,6 @@
     grid-template-rows: auto auto auto auto auto;
     justify-items: center;
     gap: 20px;
-    align-items: center;
 }
 
 #section1-div {
@@ -76,4 +75,74 @@
     border-radius: 10px;
     color: white;
     font-weight: 900;
+}
+
+@media (min-width:951px) {
+    #section1 {
+        width: 100vw;
+        padding: 60px 40px;
+        display: grid;
+        grid-template-columns: 30px 400px 300px;
+        grid-template-rows: auto auto auto;
+        gap: 50px;
+        grid-template-areas: 
+        "icon header image"
+        "icon content content"
+        "icon button button";
+        justify-content: center;
+        justify-items: normal;
+    }    
+
+    #section1-div {
+        padding: 0;
+        margin: 0;
+        grid-area: image;
+    }
+
+    #section1 h1 {
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        grid-area: header;
+    }
+
+    #section1 p {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        grid-area: content;
+    }
+    
+    #icons {
+        padding: 0;
+        margin: 0;
+        width: 0px;
+        grid-area: icon;
+        position: relative;
+    }
+
+    #icons::after {
+        content: "";
+        display: block;
+        width: 3px; /* Adjust the width as desired */
+        height: 150px; /* Adjust the height as desired */
+        background-color: blue;
+        position: absolute;
+        top: 270px;
+        left: 50%; /* Adjust the position as desired */
+        transform: translateX(25px);
+    }
+    
+    
+    #icons ul{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    #button {
+        margin: 0;
+        grid-area: button;
+        width: 200px;
+    }
 }

@@ -85,6 +85,7 @@ nav ul span {
 @media (min-width:950px) {
     #sidebar {
         width: 100vw;
+        height: auto;
         top: 0;
         left: 0;
         padding: 40px;

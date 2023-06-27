@@ -1,8 +1,8 @@
 import React,{ useState,useEffect } from "react";
 
-function Header() {
+function Header({windowsize}) {
     const [show,setshow] = useState(true)
-    const [windowsize,setWindow] = useState(false)
+    // const [windowsize,setWindow] = useState(false)
 
     const clicked = () => {
         const element = document.getElementById("sidebar")
@@ -16,15 +16,15 @@ function Header() {
         setshow(!show);
     }
 
-    useEffect(() => {
-        const handleResize = () => {
-          setWindow(window.innerWidth > 950);
-          console.log(windowsize)
-        };
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //       setWindow(window.innerWidth > 950);
+    //       console.log(windowsize)
+    //     };
     
-        handleResize()
-        window.addEventListener("resize", handleResize);
-      }, [windowsize]);
+    //     handleResize()
+    //     window.addEventListener("resize", handleResize);
+    //   }, [windowsize]);
 
   return (
     <div id="navigate">
