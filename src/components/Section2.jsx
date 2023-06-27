@@ -3,7 +3,7 @@ import '../css/section2.css'
 function Section2() {
     return (
         <section id='section2'>
-            <h2><span>01.</span> &lt;a little about me&gt;</h2>
+            <h2><span>&#x00D8;1.</span> &lt;a little about me&gt;</h2>
             <p>I've been sailing the web development seas ever since my student years more than 2 years ago.I've been creating everything from regular websites and dashboards,all the way to mobile applications and open source libraries</p>
             <p>The main characteristic of my work one could give for all these years has been simple</p>
             <h4><span>Get 💩 done.Fast.</span></h4>

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
 #section2 {
     width: 100vw;
-    padding: 100px 60px;
+    padding: 100px 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
