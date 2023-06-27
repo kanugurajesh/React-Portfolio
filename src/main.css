@@ -26,7 +26,8 @@
 }
 
 #section1 h1 {
-    max-width: 450px;
+    padding: 15px;
+    max-width: 300px;
     text-align: center;
     font-size: xx-large;
     font-weight: 900;
