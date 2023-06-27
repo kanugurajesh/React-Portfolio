@@ -48,3 +48,21 @@
     font-size: larger;
     max-width: 600px;
 }
+
+#icons {
+    padding-top: 20px;
+}
+
+#icons ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+#icons ul li {
+    cursor: pointer;
+}
+
+#icons ul li:hover {
+    scale: 1.1;
+}
