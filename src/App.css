@@ -98,3 +98,21 @@ nav ul span {
         justify-content: end;
     }
 }
+
+@media (min-width:1200px) {
+    nav ul {
+        font-size: 1.3rem;
+    }   
+}
+
+@media (min-width:1400px) {
+    nav ul {
+        font-size: 1.4rem;
+    }   
+}
+
+@media (min-width:1400px) {
+    nav ul {
+        font-size: 1.6rem;
+    }   
+}
