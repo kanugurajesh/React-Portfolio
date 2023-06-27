@@ -1,8 +1,11 @@
 #section1 {
+    width: 100vw;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
-    justify-content: center;
+    justify-items: center;
+    gap: 50px;
+    align-items: center;
 }
 
 #section1-div {
@@ -20,4 +23,16 @@
     left: -15px;
     top: 15px;
     padding: 1px;
+}
+
+#section1 h1 {
+    max-width: 450px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#section1 h1 span {
+    color: blue;
 }
