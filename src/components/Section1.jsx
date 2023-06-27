@@ -14,6 +14,7 @@ function Section1() {
           <li><a href="" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/telegram.gif?updatedAt=1687833078187" alt="" /></a></li>
         </ul>
       </div>
+      <a href="" id="button">Contact me</a>
     </section>
   )
 }

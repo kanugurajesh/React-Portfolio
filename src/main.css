@@ -66,3 +66,14 @@
 #icons ul li:hover {
     scale: 1.1;
 }
+
+#button {
+    margin: 15px 0;
+    font-size: larger;
+    text-decoration: none;
+    background-color: blue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
