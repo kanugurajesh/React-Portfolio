@@ -29,7 +29,7 @@ function Box({name,github,link,tech}){
 
 function Section4() {
     return (
-        <div id="section4">
+        <section id="section4">
             <h1><span>Ø3.</span> &lt;my portfolio&gt;</h1>
             <p>A small gallery of recent projects chosen by me.I've done all of them alone and these projects are only part of my projects</p>
             <div id="grid">
@@ -39,7 +39,7 @@ function Section4() {
                 <Box name={"Tennis Game"} github="https://github.com/rajesh604/tennis_using_react" link="https://tennis-using-react-nmpk.vercel.app/" tech={["Javascript","Html","Css","React"]}/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
-        </div>
+        </section>
     )
 }
 

@@ -1,0 +1,38 @@
+#section5 {
+    padding: 20px 20px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.5;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#section5 h1 {
+    font-size: 2rem;
+}
+
+#section5 span {
+    color: blue;
+}
+
+#section5 h3 {
+    color: #cccc;
+    text-shadow: 0 0 0.5px black;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+#history p {
+    font-size: 1.2rem;
+}
+
+@media (min-width:800px) {
+    #section5 {
+        padding: 40px 60px 40px 150px;
+    }
+}
