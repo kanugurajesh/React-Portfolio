@@ -82,7 +82,7 @@ nav ul span {
     animation-duration: 0.5s;
 }
 
-@media (min-width:951px) {
+@media (min-width:800px) {
     #sidebar {
         width: 100vw;
         height: auto;
@@ -99,15 +99,15 @@ nav ul span {
     }
 }
 
+@media (min-width:800px) {
+    nav ul {
+        font-size: 1rem;
+    }
+}
+
 @media (min-width:1200px) {
     nav ul {
         font-size: 1.3rem;
-    }   
-}
-
-@media (min-width:1400px) {
-    nav ul {
-        font-size: 1.4rem;
     }   
 }
 

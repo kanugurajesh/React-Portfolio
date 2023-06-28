@@ -2,8 +2,7 @@ import React,{ useState,useEffect } from "react";
 
 function Header({windowsize}) {
     const [show,setshow] = useState(true)
-    // const [windowsize,setWindow] = useState(false)
-
+    
     const clicked = () => {
         const element = document.getElementById("sidebar")
         if (element.classList.contains("show")) {
@@ -15,16 +14,6 @@ function Header({windowsize}) {
         }
         setshow(!show);
     }
-
-    // useEffect(() => {
-    //     const handleResize = () => {
-    //       setWindow(window.innerWidth > 950);
-    //       console.log(windowsize)
-    //     };
-    
-    //     handleResize()
-    //     window.addEventListener("resize", handleResize);
-    //   }, [windowsize]);
 
   return (
     <div id="navigate">

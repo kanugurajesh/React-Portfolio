@@ -7,8 +7,7 @@ function App() {
   const [windowsize,setWindow] = useState(false)
   useEffect(() => {
     const handleResize = () => {
-      setWindow(window.innerWidth > 950);
-      console.log(windowsize)
+      setWindow(window.innerWidth > 799);
     };
 
     handleResize()
