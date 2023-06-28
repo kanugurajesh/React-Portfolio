@@ -11,11 +11,18 @@
     font-size: 1.1rem;
 }
 
+#section4 h2 {
+    text-align: right;
+    color: #cccc;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
 #grid {
     display: grid;
     margin-top: 40px;
-    grid-template-columns: 240px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     justify-content: center;
+    gap: 40px;
 }
 
 .project-box {
