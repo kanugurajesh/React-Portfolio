@@ -10,14 +10,12 @@ function SkillTest({ language, ProficiencyRating }) {
             {[...Array(blueBoxes)].map((_, index) => (
             <>
                 <li key={`blue-${index}`} style={{ backgroundColor: 'blue', width: '30px', height: '30px',opacity:(index+1)*0.2}}></li>
-            <br />
             </>
             ))}
 
             {[...Array(blackBoxes)].map((_, index) => (
             <>
                 <li key={`black-${index}`} style={{ backgroundColor: '#ccc', width: '30px', height: '30px' }}></li>
-                <br />
             </>
             ))}
         </ul>

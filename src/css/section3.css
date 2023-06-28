@@ -16,11 +16,20 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.language h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* font-weight: normal; */
+    width: 50vw;
+    word-break: break-all;
 }
 
 #section3 ul {
+    margin: 0 auto;
     list-style: none;
+    width: 50vw;
 }
 
 #section3 h3 {
@@ -34,21 +43,16 @@
 }
 
 .language {
-    text-align: center;
     display: flex;
-    /* flex-direction: column; */
     gap: 15px;
 }
 
 .language ul {
     display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
     flex-wrap: wrap;
-    align-items: center;
-    /* gap: 5px; */
+    justify-content: end;
 }
 
 .language ul li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
+}
