@@ -28,16 +28,16 @@ function SkillTest({ language, ProficiencyRating }) {
   function Section3() {
     return (
       <section id="section3">
-        <div>
             <h1><span>Ø2.</span> &lt;my skills &gt;</h1>
+        <div>
             <SkillTest language={"python"} ProficiencyRating={4} />
             <SkillTest language={"javascript"} ProficiencyRating={3} />
             <SkillTest language={"react"} ProficiencyRating={4} />
             <SkillTest language={"html"} ProficiencyRating={4} />
             <SkillTest language={"css"} ProficiencyRating={4} />
             <SkillTest language={"Azure"} ProficiencyRating={3} />
-            <h3>&lt;/my skills &gt;</h3>
         </div>
+            <h3>&lt;/my skills &gt;</h3>
       </section>
     );
   }
