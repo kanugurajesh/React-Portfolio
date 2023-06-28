@@ -37,6 +37,11 @@ nav ul span {
     padding: 40px;
 }
 
+#navigate a {
+    text-decoration: none;
+    color: black;
+}
+
 #sidebar {
     width: 250px;
     position: absolute;
@@ -97,6 +102,7 @@ nav ul span {
         flex-direction: row;
         justify-content: end;
     }
+    
 }
 
 @media (min-width:800px) {

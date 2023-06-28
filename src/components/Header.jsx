@@ -34,19 +34,19 @@ function Header({windowsize}) {
                 {!show &&
                     <>
                         <li onClick={clicked}>
-                            <span>&#x00D8;1.</span> &lt;about&gt;
+                        <a href="#section2"><span>&#x00D8;1.</span> &lt;about&gt;</a>
                         </li>
                         <li onClick={clicked}>
-                            <span>&#x00D8;2.</span> &lt;skills&gt;
+                        <a href="#section3"><span>&#x00D8;2.</span> &lt;skills&gt;</a>
                         </li>
                         <li onClick={clicked}>
-                            <span>&#x00D8;3.</span> &lt;portfolio&gt;
+                        <a href="#section4"><span>&#x00D8;3.</span> &lt;portfolio&gt;</a>
                         </li>
                         <li onClick={clicked}>
-                            <span>&#x00D8;4.</span> &lt;career&gt;
+                        <a href="#section5"><span>&#x00D8;4.</span> &lt;career&gt;</a>
                         </li>
                         <li onClick={clicked}>
-                            <span>&#x00D8;5.</span> &lt;contact&gt;
+                        <a href="#section6"><span>&#x00D8;5.</span> &lt;contact&gt;</a>
                         </li>
                     </>
                 }
@@ -55,19 +55,19 @@ function Header({windowsize}) {
             {windowsize && 
                 <ul id="head">
                     <li>
-                        <span>&#x00D8;1.</span> &lt;about&gt;
+                        <a href="#section2"><span>&#x00D8;1.</span> &lt;about&gt;</a>
                     </li>
                     <li>
-                        <span>&#x00D8;2.</span> &lt;skills&gt;
+                        <a href="#section3"><span>&#x00D8;2.</span> &lt;skills&gt;</a>
                     </li>
                     <li>
-                        <span>&#x00D8;3.</span> &lt;portfolio&gt;
+                        <a href="#section4"><span>&#x00D8;3.</span> &lt;portfolio&gt;</a>
                     </li>
                     <li>
-                        <span>&#x00D8;4.</span> &lt;career&gt;
+                        <a href="#section5"><span>&#x00D8;4.</span> &lt;career&gt;</a>
                     </li>
                     <li>
-                        <span>&#x00D8;5.</span> &lt;contact&gt;
+                        <a href="#section6"><span>&#x00D8;5.</span> &lt;contact&gt;</a>
                     </li>
                 </ul>
             }
