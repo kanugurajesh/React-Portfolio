@@ -2,7 +2,8 @@
 
 #section2 {
     width: 100vw;
-    padding: 100px 60px 100px 80px;
+    /* padding: 100px 60px 100px 80px; */
+    padding: 100px 20px 100px 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
