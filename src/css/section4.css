@@ -59,3 +59,9 @@
     border-radius: 15px;
     letter-spacing: 1px;
 }
+
+@media (min-width:800px) {
+    #section4 {
+        padding: 40px 60px 40px 150px;
+    }
+}
