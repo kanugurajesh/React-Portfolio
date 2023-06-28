@@ -9,13 +9,13 @@ function SkillTest({ language, ProficiencyRating }) {
             <ul>
             {[...Array(blueBoxes)].map((_, index) => (
             <>
-                <li key={`blue-${index}`} style={{ backgroundColor: 'blue', width: '30px', height: '30px',opacity:(index+1)*0.2}}></li>
+                <li key={`blue-${index}`} style={{ backgroundColor: 'blue',opacity:(index+1)*0.2}}></li>
             </>
             ))}
 
             {[...Array(blackBoxes)].map((_, index) => (
             <>
-                <li key={`black-${index}`} style={{ backgroundColor: '#ccc', width: '30px', height: '30px' }}></li>
+                <li key={`black-${index}`} style={{ backgroundColor: '#ccc'}}></li>
             </>
             ))}
         </ul>
@@ -28,7 +28,7 @@ function SkillTest({ language, ProficiencyRating }) {
       <section id="section3">
             <h1><span>Ø2.</span> &lt;my skills &gt;</h1>
         <div>
-            <SkillTest language={"python"} ProficiencyRating={4} />
+            <SkillTest language={"python"} ProficiencyRating={5} />
             <SkillTest language={"javascript"} ProficiencyRating={3} />
             <SkillTest language={"react"} ProficiencyRating={4} />
             <SkillTest language={"html"} ProficiencyRating={4} />
