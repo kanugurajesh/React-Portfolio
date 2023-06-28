@@ -28,11 +28,11 @@ function SkillTest({ language, ProficiencyRating }) {
       <section id="section3">
             <h1><span>Ø2.</span> &lt;my skills &gt;</h1>
         <div>
-            <SkillTest language={"python"} ProficiencyRating={5} />
-            <SkillTest language={"javascript"} ProficiencyRating={3} />
-            <SkillTest language={"react"} ProficiencyRating={4} />
-            <SkillTest language={"html"} ProficiencyRating={4} />
-            <SkillTest language={"css"} ProficiencyRating={4} />
+            <SkillTest language={"Python"} ProficiencyRating={5} />
+            <SkillTest language={"Javascript"} ProficiencyRating={3} />
+            <SkillTest language={"React"} ProficiencyRating={4} />
+            <SkillTest language={"Html"} ProficiencyRating={4} />
+            <SkillTest language={"Css"} ProficiencyRating={4} />
             <SkillTest language={"Azure"} ProficiencyRating={3} />
         </div>
             <h3>&lt;/my skills &gt;</h3>
