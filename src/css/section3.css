@@ -1,6 +1,6 @@
 #section3 {
     width: 100vw;
-    padding: 0px 60px 100px 80px;
+    padding: 20px 60px 100px 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -8,6 +8,15 @@
     font-size: 1.2rem;
     letter-spacing: 1px;
     word-spacing: 2px;
+}
+
+#section3 > div {
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #section3 ul {
@@ -39,6 +48,5 @@
 }
 
 .language ul li {
-    box-shadow: 0 0 1px black;
-}
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
