@@ -1,6 +1,6 @@
 #section3 {
     width: 100vw;
-    padding: 20px 60px 100px 80px;
+    padding: 20px 10px 100px 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -11,12 +11,12 @@
 }
 
 #section3 > div {
-    padding: 40px;
-    border-radius: 10px;
+    /* padding: 40px; */
+    /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
 }
 
 #section3 ul {
@@ -36,15 +36,17 @@
 .language {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 15px;
 }
 
 .language ul {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: center;
-    gap: 5px;
+    /* gap: 5px; */
 }
 
 .language ul li {
