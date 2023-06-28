@@ -1,3 +1,45 @@
 #section6 {
-    
+    padding: 20px 20px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.5;
+}
+
+#section6 h1 {
+    font-size: 2rem;
+}
+
+#section6 span {
+    color: blue;
+}
+
+#section6 a {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+#section6 p {
+    font-size: 1.2rem;
+}
+
+#section6 h3 {
+    text-align: right;
+    font-size: 1.5rem;
+    color: #cccc;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width:800px) {
+    #section6 {
+        padding: 40px 60px 40px 150px;
+    }
 }
