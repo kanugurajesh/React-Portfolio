@@ -26,12 +26,18 @@
 
 #section2 h3 {
     font-size: 1.6rem;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    color: #cccc;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
     font-weight: 900;
     text-align: right;
 }
 
 #section2 h4 {
     font-size: 1.4rem;
+}
+
+@media (min-width:800px) {
+    #section2 {
+        padding: 40px 60px 40px 150px;
+    }
 }

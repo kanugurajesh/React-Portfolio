@@ -52,6 +52,7 @@
     padding: 20px;
     padding-left: 30px;
     font-size: larger;
+    text-align: center;
 }
 
 #icons {
@@ -110,6 +111,7 @@
     #section1 p {
         grid-area: content;
         width: calc(var(--universal-width) + var(--image-width) - var(--universal-gap));
+        text-align: left;
     }
 
     #icons{

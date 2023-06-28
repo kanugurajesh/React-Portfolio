@@ -1,21 +1,40 @@
-function skillTest(opacity) {
+import '../css/section3.css'
+
+function SkillTest({ language, ProficiencyRating }) {
+    const blueBoxes = ProficiencyRating;
+    const blackBoxes = 5 - ProficiencyRating;
     return (
-        <ul>
-            <li style={{opacity:opacity/5}}></li>
-            <li style={{opacity:opacity/4}}></li>
-            <li style={{opacity:opacity/3}}></li>
-            <li style={{opacity:opacity/2}}></li>
-            <li style={{opacity:opacity/1}}></li>
+      <div className="language">
+            <h2>{language}</h2>
+            <ul>
+            {[...Array(blueBoxes)].map((_, index) => (
+            <>
+                <li key={`blue-${index}`} style={{ backgroundColor: 'blue', width: '30px', height: '30px',opacity:(index+1)*0.2}}></li>
+            <br />
+            </>
+            ))}
+
+            {[...Array(blackBoxes)].map((_, index) => (
+            <>
+                <li key={`black-${index}`} style={{ backgroundColor: '#ccc', width: '30px', height: '30px' }}></li>
+                <br />
+            </>
+            ))}
         </ul>
-    )
-}
-
-function Section3() {
+      </div>
+    );
+  }
+  
+  function Section3() {
     return (
-        <section id="section3">
-            <h1>&#x00D8;2. &lt;my skills &gt;</h1>
-        </section>
-    )
-}
-
-export default Section3;
+      <section id="section3">
+        <h1><span>Ø2.</span> &lt;my skills &gt;</h1>
+        <SkillTest language={"python"} ProficiencyRating={4} />
+        <SkillTest language={"javascript"} ProficiencyRating={3} />
+        <h3>&lt;/my skills &gt;</h3>
+      </section>
+    );
+  }
+  
+  export default Section3;
+  
