@@ -36,7 +36,7 @@ function Section4() {
                 <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]}/>
                 <Box name={"Restaurant App"} github="https://github.com/rajesh604/django_fullstack_project" link="http://rajeshkanugu.pythonanywhere.com/" tech={["django","Html","Css","Javascript","meal api","pythonanywhere"]}/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]}/>
-                <Box name={"Home Page"} github="https://github.com/rajesh604/website" link="https://rajesh604.github.io/website/" tech={["Javascript","Html","Css","Bootstrap"]}/>
+                <Box name={"Tennis Game"} github="https://github.com/rajesh604/tennis_using_react" link="https://tennis-using-react-nmpk.vercel.app/" tech={["Javascript","Html","Css","React"]}/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
         </div>
