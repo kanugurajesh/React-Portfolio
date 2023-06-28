@@ -1,0 +1,60 @@
+#section4 span {
+    color: blue;
+}
+
+#section4 {
+    padding: 20px 20px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+#grid {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 240px;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.project-box img {
+    width: 30px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-header-2 {
+    display: flex;
+    gap: 15px;
+}
+
+.project-box h3 {
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.project-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-footer div {
+    font-size: 0.9rem;
+    background-color: #cccc;
+    padding: 5px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
