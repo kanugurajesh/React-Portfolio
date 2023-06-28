@@ -15,6 +15,7 @@
     display: grid;
     margin-top: 40px;
     grid-template-columns: 240px;
+    justify-content: center;
 }
 
 .project-box {
