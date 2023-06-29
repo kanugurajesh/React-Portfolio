@@ -8,9 +8,11 @@ function Header({windowsize}) {
         if (element.classList.contains("show")) {
             element.classList.remove("show")
             element.classList.add("hide")
+            document.body.style.overflow = 'auto'
         }else {
             element.classList.add("show")
             element.classList.remove("hide")
+            document.body.style.overflow = 'hidden'
         }
         setshow(!show);
     }
