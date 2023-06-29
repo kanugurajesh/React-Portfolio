@@ -26,12 +26,12 @@ import '../css/section3.css'
       <section id="section3">
             <h1><span>Ø2.</span> &lt;my skills &gt;</h1>
         <div>
-            <SkillTest language={"Python"} ProficiencyRating={3} />
-            <SkillTest language={"Javascript"} ProficiencyRating={2} />
-            <SkillTest language={"React"} ProficiencyRating={3} />
+            <SkillTest language={"Python"} ProficiencyRating={4} />
+            <SkillTest language={"Javascript"} ProficiencyRating={4} />
+            <SkillTest language={"React"} ProficiencyRating={4} />
             <SkillTest language={"Html"} ProficiencyRating={5} />
-            <SkillTest language={"Css"} ProficiencyRating={5} />
-            <SkillTest language={"Azure"} ProficiencyRating={5} />
+            <SkillTest language={"Css"} ProficiencyRating={4} />
+            <SkillTest language={"Azure"} ProficiencyRating={4} />
         </div>
             <h3>&lt;/my skills &gt;</h3>
       </section>
