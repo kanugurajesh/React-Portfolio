@@ -26,7 +26,6 @@ function Section1({windowsize}) {
 
     axios.post('/send', jsonData)
     .then(response => {
-      console.log(response)
       // 
     })
     .catch(error => {
@@ -65,7 +64,7 @@ function Section1({windowsize}) {
         </ul>
       </div>
       <a href="" id="button" onClick={shower}>Contact me</a>
-      {/* programmer */}
+      
       {show && (
         <div id="width">
           <form onSubmit={handleSubmit}>
