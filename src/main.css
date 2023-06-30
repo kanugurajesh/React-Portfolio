@@ -178,7 +178,7 @@ form button {
         width: var(--universal-width);
         text-align: left;
         line-height: 1.6;
-        font-size: 2.1;
+        font-size: 2.1rem;
     }
 
     #section1 p {
