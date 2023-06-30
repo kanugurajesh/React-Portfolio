@@ -2,10 +2,15 @@ import React,{useState} from "react";
 
 function Section1({windowsize}) {
   const [show,setshow] = useState(false);
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
+    console.log(process.env.API_KEY)
   }
 
   const shower = (e) => {
