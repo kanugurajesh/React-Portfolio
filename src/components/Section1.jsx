@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 
 function Section1({windowsize}) {
   const [show,setshow] = useState(false);
@@ -6,9 +6,14 @@ function Section1({windowsize}) {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [password,setPassword] = useState("");
 
-  console.log(process.env.REACT_APP_API_KEY)
-  console.log("i am a person")
+  useEffect(() => {
+    const envMessage = process.env.REACT_APP_PASSKEY;
+    setPassword(envMessage);
+    console.log(password)
+  })
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
