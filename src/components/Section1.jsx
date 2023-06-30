@@ -9,7 +9,7 @@ function Section1({windowsize}) {
   const [password,setPassword] = useState("");
 
   useEffect(() => {
-    const envMessage = process.env.REACT_APP_PASSKEY;
+    const envMessage = process.env.REACT_APP_API_KEY;
     setPassword(envMessage);
     console.log(password)
     console.log("hi")
