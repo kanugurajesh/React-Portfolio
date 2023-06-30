@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from "react";
+import axios from 'axios'
 
 function Section1({windowsize}) {
   const [show,setshow] = useState(false);
@@ -16,6 +17,22 @@ function Section1({windowsize}) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const jsonData = {
+      firstName,
+      lastName,
+      email,
+      message,
+      password,
+    };
+
+    axios.post('https://portfolio-backedn.azurewebsites.net/', jsonData)
+    .then(response => {
+      // alert("Email delivered successfully ✅")
+    })
+    .catch(error => {
+      // alert("Email not delivered 😢")
+    });
+
     setshow(!show);
   }
 
@@ -56,11 +73,19 @@ function Section1({windowsize}) {
                 setshow(!show)
               }}>❌</div>
               <div id="name">
-                <input type="text" className="input-field" placeholder="First Name" required/>
-                <input type="text" className="input-field" placeholder="Last Name" required/>
+                <input type="text" className="input-field" placeholder="First Name" onChange={(e)=>{
+                  setFirstName(e.target.value)
+                }} required/>
+                <input type="text" className="input-field" placeholder="Last Name" onChange={(e)=>{
+                  setLastName(e.target.value)
+                }} required/>
               </div>
-              <input type="text" placeholder="Enter Your Gmail" required/>
-              <textarea name="" id="" placeholder="Enter Your Message" required></textarea>
+              <input type="text" placeholder="Enter Your Gmail" onChange={(e)=>{
+                setEmail(e.target.value)
+              }} required/>
+              <textarea name="" id="" placeholder="Enter Your Message" onChange={(e)=>{
+                setMessage(e.target.value)
+              }} required></textarea>
               <button type="submit">Submit</button>
             </div>
         </form>
