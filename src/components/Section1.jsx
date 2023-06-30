@@ -30,15 +30,16 @@ function Section1({windowsize}) {
       <p>I'm a full-stack web developer and python developer , I love to bring your creativity and ideas to fully functional and scalable web applications.</p>
       <div id="icons">
         <ul>
-          <li><a href="https://twitter.com/exploringengin1" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/twitter.gif?updatedAt=1687833078219" alt=""/></a></li>
-          <li><a href="https://github.com/rajesh604" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/github.gif?updatedAt=1687833049000" alt="" /></a></li>
-          <li><a href="https://www.linkedin.com/in/rajesh-coder-aba8a3254/" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/linkedin.gif?updatedAt=1687833078300" alt="" /></a></li>
-          <li><a href="" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/telegram.gif?updatedAt=1687833078187" alt="" /></a></li>
+          <li><a href="https://twitter.com/exploringengin1" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-twitter.gif?updatedAt=1688106018779" alt=""/></a></li>
+          <li><a href="https://github.com/rajesh604" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-github.gif?updatedAt=1687962773756" alt="" /></a></li>
+          <li><a href="https://www.linkedin.com/in/rajesh-coder-aba8a3254/" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-linkedin-circled.gif?updatedAt=1688106080968" alt="" /></a></li>
+          <li><a href="https://www.youtube.com/@Rajeshcoder" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-youtube_1_.gif?updatedAt=1688106213427" alt="" /></a></li>
         </ul>
       </div>
       <a href="" id="button" onClick={shower}>Contact me</a>
       {show && (
-        <form onSubmit={handleSubmit}>
+        <div id="width">
+          <form onSubmit={handleSubmit}>
             <div>
               <div id="close" onClick={()=>{
                 setshow(!show)
@@ -52,6 +53,7 @@ function Section1({windowsize}) {
               <button type="submit">Submit</button>
             </div>
         </form>
+        </div>
       )}
     </section>
   )

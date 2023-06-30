@@ -15,6 +15,14 @@
     justify-items: center;
 }
 
+#width {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #section1-div {
     width: var(--image-width);
     height: var(--image-width);
@@ -62,7 +70,7 @@
 #icons ul{
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 #icons ul li {
@@ -86,7 +94,6 @@
 }
 
 form {
-    width: 300px;
     position: fixed;
     top: 40%;
     z-index: 1;
@@ -136,7 +143,7 @@ form button {
     cursor: pointer;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 1px;
     width: 25px;
 }
 
@@ -146,47 +153,7 @@ form button {
     }
     
     form > div {
-        background-color: #ccc;
-        padding-top: 40px;
         padding-right: 25px;
-    }
-    
-    form input {
-        height: 30px;
-        padding: 15px;
-        font-size: 0.9rem;
-        border-radius: 5px;
-        border: none;
-    }
-    
-    form textarea {
-        height: 70px;
-        padding: 15px;
-        font-size: 1rem;
-        border: none;
-        border-radius: 5px;
-        resize: none;
-    }
-    
-    form button {
-        border-radius: 5px;
-        padding: 10px;
-        font-size: 1rem;
-        border: none;
-    }
-    
-    #name {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    #close {
-        cursor: pointer;
-        position: absolute;
-        top: 10px;
-        right: 0;
-        width: 25px;
     }
 }
 
@@ -232,7 +199,7 @@ form button {
     #icons::after {
     content: '';
     position: absolute;
-    top: 300px;
+    top: 310px;
     left: 25px;
     height: var(--universal-height);
     width: 3px;
@@ -243,6 +210,61 @@ form button {
         grid-area: button;
         margin-left: 30px;
     }
+
+    form {
+        width: 500px;
+    }
+
+    form > div {
+        background-color: #ccc;
+        padding: 25px;
+        padding-top: 40px;
+        gap: 15px;
+    }
+    
+    form input {
+        height: 35px;
+        padding: 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    form textarea {
+        height: 90px;
+        padding: 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+    }
+    
+    form button {
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 1rem;
+        border: none;
+    }
+    
+    #name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    #name input {
+        width: 215px;
+    }
+
+    #close {
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 1px;
+        width: 25px;
+    }
+    
 }
 
 @media (min-width:900px) {
