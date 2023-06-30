@@ -9,8 +9,9 @@ function Section1({windowsize}) {
   const [password,setPassword] = useState("");
 
   useEffect(() => {
-    const envMessage = import.meta.env.VITE_REACT_API_KEY;
+    const envMessage = import.meta.env.VITE_REACT_APP_API_KEY;
     setPassword(envMessage);
+    console.log(password)
   })
 
   const handleSubmit = (e) => {
