@@ -7,7 +7,7 @@ function Section1({windowsize}) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  console.log(process.env.API_KEY)
+  console.log(process.env.REACT_APP_API_KEY)
   console.log("i am a person")
   const handleSubmit = (e) => {
     e.preventDefault();
