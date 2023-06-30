@@ -8,7 +8,7 @@ function Section1({windowsize}) {
   const [message, setMessage] = useState("");
 
   console.log(process.env.API_KEY)
-
+  console.log("i am a person")
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
