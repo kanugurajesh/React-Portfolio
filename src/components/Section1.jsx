@@ -11,7 +11,6 @@ function Section1({windowsize}) {
   useEffect(() => {
     const envMessage = import.meta.env.VITE_REACT_APP_PASSKEY;
     setPassword(envMessage);
-    console.log(password)
   })
 
   const handleSubmit = (e) => {
