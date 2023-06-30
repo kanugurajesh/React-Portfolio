@@ -7,7 +7,6 @@ function Section1({windowsize}) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   
-  console.log(password)
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
