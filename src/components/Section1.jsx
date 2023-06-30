@@ -1,9 +1,9 @@
 import React,{useState} from "react";
 import dotenv from 'dotenv'
+dotenv.config()
 const password = process.env.API_KEY;
 
 function Section1({windowsize}) {
-  dotenv.config()
   const [show,setshow] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
