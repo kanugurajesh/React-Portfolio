@@ -12,7 +12,6 @@ function Section1({windowsize}) {
   useEffect(() => {
     const envMessage = import.meta.env.VITE_REACT_APP_PASSKEY;
     setPassword(envMessage);
-    console.log(password)
   })
 
   const handleSubmit = (e) => {
@@ -25,12 +24,13 @@ function Section1({windowsize}) {
       password,
     };
 
-    axios.post('https://portfolio-backedn.azurewebsites.net/send', jsonData)
+    axios.post('/send', jsonData)
     .then(response => {
-      // alert("Email delivered successfully ✅")
+      console.log(response)
+      // 
     })
     .catch(error => {
-      // alert("Email not delivered 😢")
+      // 
     });
 
     setshow(!show);

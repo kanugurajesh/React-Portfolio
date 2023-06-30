@@ -69,7 +69,7 @@ function Header({windowsize}) {
                         <a href="#section5"><span>&#x00D8;4.</span> &lt;career&gt;</a>
                     </li>
                     <li>
-                        <a href="#section6"><span>&#x00D8;5.</span> &lt;contact&gt;</a>
+                        <a href="#button"><span>&#x00D8;5.</span> &lt;contact&gt;</a>
                     </li>
                 </ul>
             }
