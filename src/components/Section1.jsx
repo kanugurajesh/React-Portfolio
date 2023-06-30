@@ -65,6 +65,7 @@ function Section1({windowsize}) {
         </ul>
       </div>
       <a href="" id="button" onClick={shower}>Contact me</a>
+      {/* programmer */}
       {show && (
         <div id="width">
           <form onSubmit={handleSubmit}>
