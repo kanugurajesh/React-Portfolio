@@ -12,6 +12,7 @@ function Section1({windowsize}) {
     const envMessage = process.env.REACT_APP_PASSKEY;
     setPassword(envMessage);
     console.log(password)
+    console.log("hi")
   })
 
   const handleSubmit = (e) => {
