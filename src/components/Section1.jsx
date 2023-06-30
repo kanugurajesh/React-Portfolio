@@ -6,7 +6,9 @@ function Section1({windowsize}) {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  
+
+  console.log(process.env.API_KEY)
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
