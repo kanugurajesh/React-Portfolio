@@ -1,5 +1,8 @@
 import React,{useState} from "react";
 
+import dotenv from 'dotenv'
+dotenv.config();
+
 function Section1({windowsize}) {
   const [show,setshow] = useState(false);
   const [firstName, setFirstName] = useState("");
