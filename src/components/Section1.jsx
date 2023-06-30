@@ -25,7 +25,7 @@ function Section1({windowsize}) {
       password,
     };
 
-    axios.post('https://portfolio-backedn.azurewebsites.net/', jsonData)
+    axios.post('https://portfolio-backedn.azurewebsites.net/send', jsonData)
     .then(response => {
       // alert("Email delivered successfully ✅")
     })
