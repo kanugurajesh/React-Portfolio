@@ -85,6 +85,111 @@
     text-align: center;
 }
 
+form {
+    width: 300px;
+    position: fixed;
+    top: 40%;
+    z-index: 1;
+}
+
+form > div {
+    background-color: #ccc;
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+form input {
+    height: 30px;
+    padding: 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea {
+    height: 70px;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+form button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 25px;
+}
+
+@media (min-width:600px) {
+    form {
+        width: 350px;
+    }
+    
+    form > div {
+        background-color: #ccc;
+        padding-top: 40px;
+        padding-right: 25px;
+    }
+    
+    form input {
+        height: 30px;
+        padding: 15px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    form textarea {
+        height: 70px;
+        padding: 15px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+    }
+    
+    form button {
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1rem;
+        border: none;
+    }
+    
+    #name {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #close {
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 25px;
+    }
+}
+
 @media (min-width:800px) {
     #section1 {
         grid-template-areas: 
@@ -106,6 +211,7 @@
         width: var(--universal-width);
         text-align: left;
         line-height: 1.6;
+        font-size: 2.1;
     }
 
     #section1 p {
@@ -136,12 +242,6 @@
     #button {
         grid-area: button;
         margin-left: 30px;
-    }
-}
-
-@media (min-width:800px) {
-    #section1 h1 {
-        font-size: 2.1rem;
     }
 }
 

@@ -1,4 +1,18 @@
+import React,{useState} from "react";
+
 function Section1({windowsize}) {
+  const [show,setshow] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setshow(!show);
+  }
+
+  const shower = (e) => {
+    e.preventDefault();
+    setshow(!show);
+  }
+
   return (
     <section id="section1">
       <div id="section1-div">
@@ -22,7 +36,23 @@ function Section1({windowsize}) {
           <li><a href="" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/telegram.gif?updatedAt=1687833078187" alt="" /></a></li>
         </ul>
       </div>
-      <a href="" id="button">Contact me</a>
+      <a href="" id="button" onClick={shower}>Contact me</a>
+      {show && (
+        <form onSubmit={handleSubmit}>
+            <div>
+              <div id="close" onClick={()=>{
+                setshow(!show)
+              }}>❌</div>
+              <div id="name">
+                <input type="text" className="input-field" placeholder="First Name" required/>
+                <input type="text" className="input-field" placeholder="Last Name" required/>
+              </div>
+              <input type="text" placeholder="Enter Your Gmail" required/>
+              <textarea name="" id="" placeholder="Enter Your Message" required></textarea>
+              <button type="submit">Submit</button>
+            </div>
+        </form>
+      )}
     </section>
   )
 }
