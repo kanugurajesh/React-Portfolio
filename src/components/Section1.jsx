@@ -23,7 +23,7 @@ function Section1({windowsize}) {
       message,
       password,
     };
-
+    
     axios.post('https://backend-developer.azurewebsites.net/send', jsonData)
     .then(response => {
       // 
