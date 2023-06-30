@@ -13,7 +13,7 @@ function Section1({windowsize}) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
-    console.log(password)
+    console.log(process.env)
   }
 
   const shower = (e) => {
