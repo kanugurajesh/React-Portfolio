@@ -1,19 +1,19 @@
 import React,{useState} from "react";
 import dotenv from 'dotenv'
 
-dotenv.config()
-
 function Section1({windowsize}) {
+  dotenv.config()
   const [show,setshow] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const password = process.env.API_KEY;
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setshow(!show);
-    console.log(process.env.API_KEY)
+    console.log(password)
   }
 
   const shower = (e) => {
