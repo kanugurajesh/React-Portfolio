@@ -33,6 +33,7 @@ function Section4() {
             <h1><span>Ø3.</span> &lt;my portfolio&gt;</h1>
             <p>A small gallery of recent projects chosen by me.I've done all of them alone and these projects are only part of my projects</p>
             <div id="grid">
+                <Box name={"Gmate"} github="" link="https://hackathon-1.azurewebsites.net/" tech={["Javascript","Html","Css","React","cohere ai","azure","flask","node","express"]}/>
                 <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]}/>
                 <Box name={"Restaurant App"} github="https://github.com/rajesh604/django_fullstack_project" link="http://rajeshkanugu.pythonanywhere.com/" tech={["django","Html","Css","Javascript","meal api","pythonanywhere"]}/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]}/>
