@@ -8,6 +8,7 @@ function Section5() {
                 <p><span>Full-Stack Web Developer </span>@ Upwork 2023 - Present</p>
                 <p><span>Full-Stack Web Developer </span>@ Freelancer 2023 - Present</p>
                 <p><span>Full-Stack Web Developer </span>@ Replit 2023 - Present</p>
+                <p><span>Full-Stack Web Developer </span>@ RentEasy 2023 - Present</p>
             </div>
             <h3>&lt;/my working career&gt;</h3>
         </section>
