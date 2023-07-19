@@ -59,7 +59,7 @@ function Section1({windowsize}) {
         <ul>
           <li><a href="https://twitter.com/exploringengin1" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-twitter.gif?updatedAt=1688106018779" alt=""/></a></li>
           <li><a href="https://github.com/rajesh604" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-github.gif?updatedAt=1687962773756" alt="" /></a></li>
-          <li><a href="https://www.linkedin.com/in/rajesh-coder-aba8a3254/" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-linkedin-circled.gif?updatedAt=1688106080968" alt="" /></a></li>
+          <li><a href="https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-linkedin-circled.gif?updatedAt=1688106080968" alt="" /></a></li>
           <li><a href="https://www.youtube.com/@Rajeshcoder" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-youtube_1_.gif?updatedAt=1688106213427" alt="" /></a></li>
         </ul>
       </div>

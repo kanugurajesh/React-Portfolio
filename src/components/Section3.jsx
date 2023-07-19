@@ -34,6 +34,7 @@ import '../css/section3.css'
             <SkillTest language={"Java"} ProficiencyRating={4} />
             <SkillTest language={"Aws"} ProficiencyRating={3} />
             <SkillTest language={"C"} ProficiencyRating={5} />
+            <SkillTest language={"C++"} ProficiencyRating={4} />
             <SkillTest language={"Azure"} ProficiencyRating={3} />
         </div>
             <h3>&lt;/my skills &gt;</h3>
