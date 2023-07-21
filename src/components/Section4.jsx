@@ -39,6 +39,7 @@ function Section4() {
                 <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]} description="I have build a restaurant menu"/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]} description="I have build a space exploration app"/>
                 <Box name={"Tennis Game"} github="https://github.com/rajesh604/tennis_using_react" link="https://tennis-using-react-nmpk.vercel.app/" tech={["Javascript","Html","Css","React"]} description="I have build a tennis game"/>
+                <Box name={"Portfolio 2"} github="https://github.com/rajesh604/rajesh604.github.io" link="https://rajesh604.github.io" tech={["Javascript","Html","Css","Github Static Pages"]} description="I have build a portfolio"/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
         </section>
