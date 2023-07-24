@@ -40,7 +40,8 @@ function Section4() {
                 <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]} description="I have build a restaurant menu"/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]} description="I have build a space exploration app"/>
                 <Box name={"Tennis Game"} github="https://github.com/rajesh604/tennis_using_react" link="https://tennis-using-react-nmpk.vercel.app/" tech={["Javascript","Html","Css","React"]} description="I have build a tennis game"/>
-                <Box name={"Portfolio 1"} github="" link="http://rajeshkanugu.tech" tech={["Javascript","Html","Css","Azure","React Js","Nodemailer","Express","Node Js"]} description="I have build a portfolio"/>
+                <Box name={"Portfolio 1"} github="" link="https://salmon-river-0d2437110.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","Nodemailer","Express","Node Js"]} description="I have build a portfolio"/>
+                <Box name={"Portfolio Dashboard"} github="" link="https://nice-coast-02bdb0c10.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","mui","ant design"]} description="I have build a portfolio dashboard"/>
                 <Box name={"Portfolio 2"} github="https://github.com/rajesh604/rajesh604.github.io" link="https://rajesh604.github.io" tech={["Javascript","Html","Css","Github Static Pages"]} description="I have build a portfolio"/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
