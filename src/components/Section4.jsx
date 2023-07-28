@@ -37,13 +37,13 @@ function Section4() {
                 <Box name={"Gmate"} github="" link="https://hackathon-1.azurewebsites.net/" tech={["Javascript","Html","Css","React","cohere ai","azure","flask","node","express"]} description="I have a multipurpose bot which can chat with you and send messeges using gmail,sms,whatsapp"/>
                 <Box name={"Restaurant App"} github="https://github.com/rajesh604/django_fullstack_project" link="http://rajeshkanugu.pythonanywhere.com/" tech={["django","Html","Css","Javascript","meal api","pythonanywhere"]} description="I have build a restaurant app"/>
                 <Box name={"Image Upload"} link="https://improved-funicular.vercel.app/" tech={["Javascript","Html","Css","React","firebase","hosting","mongodb atlas","supabase"]} description="I have build a image upload app"/>
-                <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]} description="I have build a restaurant menu"/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]} description="I have build a space exploration app"/>
                 <Box name={"Tennis Game"} github="https://github.com/rajesh604/tennis_using_react" link="https://tennis-using-react-nmpk.vercel.app/" tech={["Javascript","Html","Css","React"]} description="I have build a tennis game"/>
                 <Box name={"Portfolio 1"} github="" link="https://salmon-river-0d2437110.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","Nodemailer","Express","Node Js"]} description="I have build a portfolio"/>
+                <Box name={"News Blog"} github="https://github.com/rajesh604/django_blog" link="http://rajeshgowd.pythonanywhere.com/" tech={["Javascript","Html","Css","django","NewsApi","pythonanywhere","Bootstrap"]} description="A Blog Where Users Can see news and write posts only when the superuser allows them"/>
                 <Box name={"Portfolio Dashboard"} github="" link="https://nice-coast-02bdb0c10.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","mui","ant design"]} description="I have build a portfolio dashboard"/>
                 <Box name={"Portfolio 2"} github="https://github.com/rajesh604/rajesh604.github.io" link="https://rajesh604.github.io" tech={["Javascript","Html","Css","Github Static Pages"]} description="I have build a portfolio"/>
-                <Box name={"News Blog"} github="https://github.com/rajesh604/django_blog" link="http://rajeshgowd.pythonanywhere.com/" tech={["Javascript","Html","Css","django","NewsApi","pythonanywhere",]} description="I have build a portfolio"/>
+                <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]} description="I have build a restaurant menu"/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
         </section>
