@@ -43,6 +43,7 @@ function Section4() {
                 <Box name={"Portfolio 1"} github="" link="https://salmon-river-0d2437110.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","Nodemailer","Express","Node Js"]} description="I have build a portfolio"/>
                 <Box name={"Portfolio Dashboard"} github="" link="https://nice-coast-02bdb0c10.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","mui","ant design"]} description="I have build a portfolio dashboard"/>
                 <Box name={"Portfolio 2"} github="https://github.com/rajesh604/rajesh604.github.io" link="https://rajesh604.github.io" tech={["Javascript","Html","Css","Github Static Pages"]} description="I have build a portfolio"/>
+                <Box name={"News Blog"} github="https://github.com/rajesh604/django_blog" link="http://rajeshgowd.pythonanywhere.com/" tech={["Javascript","Html","Css","django","NewsApi","pythonanywhere",]} description="I have build a portfolio"/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
         </section>
