@@ -44,6 +44,7 @@ function Section4() {
                 <Box name={"Portfolio Dashboard"} github="" link="https://nice-coast-02bdb0c10.3.azurestaticapps.net/" tech={["Javascript","Html","Css","Azure","React Js","mui","ant design"]} description="I have build a portfolio dashboard"/>
                 <Box name={"Portfolio 2"} github="https://github.com/rajesh604/rajesh604.github.io" link="https://rajesh604.github.io" tech={["Javascript","Html","Css","Github Static Pages"]} description="I have build a portfolio"/>
                 <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]} description="I have build a restaurant menu"/>
+                <Box name={"Excel Upload"} github={"https://github.com/rajesh604/flsk_xl_upload"} link={"https://hasura.azurewebsites.net"} description="A normal flask aplication to upload and view your excel file" tech={["Flask","Azure","Html","Css","Javascript"]}/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
         </section>
