@@ -32,7 +32,6 @@ function Section4() {
         <section id="section4">
             <h1><span>Ø3.</span> &lt;my portfolio&gt;</h1>
             <p>A small gallery of recent projects chosen by me.I've done all of them alone and these projects are only part of my projects</p>
-            {/* all my skills are listed below */}
             <div id="grid">
                 <Box name={"Gmate"} github="" link="https://hackathon-1.azurewebsites.net/" tech={["Javascript","Html","Css","React","cohere ai","azure","flask","node","express"]} description="I have a multipurpose bot which can chat with you and send messeges using gmail,sms,whatsapp"/>
                 <Box name={"Restaurant App"} github="https://github.com/rajesh604/django_fullstack_project" link="http://rajeshkanugu.pythonanywhere.com/" tech={["django","Html","Css","Javascript","meal api","pythonanywhere"]} description="I have build a restaurant app"/>
