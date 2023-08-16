@@ -5,7 +5,7 @@ function Section6() {
         <section id="section6">
             <h1><span>Ø5.</span>&lt;get in touch&gt;</h1>
             <p>My inbox is always open.Whether you have a question or project or just want to say hi, I'll try my best to get back to you!</p>
-            <a href="https://ik.imagekit.io/hbzknb1hm/rajeshupdated.pdf?updatedAt=1690561147149" download="rajesh-resume.pdf">My CV</a>
+            <a href="https://docs.google.com/document/d/1KRU8jhtcMU8Fb_zHpC9mhxv7NSYsxnf_/edit#heading=h.gjdgxs" download="rajesh-resume.docx">My CV</a>
             <h3>&lt;/get in touch&gt;</h3>
         </section>
     )
