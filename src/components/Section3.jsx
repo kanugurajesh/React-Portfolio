@@ -33,8 +33,8 @@ import '../css/section3.css'
             <SkillTest language={"Css"} ProficiencyRating={5} />
             <SkillTest language={"Java"} ProficiencyRating={4} />
             <SkillTest language={"Aws"} ProficiencyRating={3} />
-            <SkillTest language={"C"} ProficiencyRating={5} />
-            <SkillTest language={"C++"} ProficiencyRating={4} />
+            <SkillTest language={"Nest JS"} ProficiencyRating={4} />
+            <SkillTest language={"Next Js"} ProficiencyRating={4} />
             <SkillTest language={"Azure"} ProficiencyRating={3} />
         </div>
             <h3>&lt;/my skills &gt;</h3>
