@@ -27,15 +27,16 @@ import '../css/section3.css'
             <h1><span>Ø2.</span> &lt;my skills &gt;</h1>
         <div>
             <SkillTest language={"Python"} ProficiencyRating={5} />
-            <SkillTest language={"Javascript"} ProficiencyRating={5} />
+            <SkillTest language={"Frontend"} ProficiencyRating={5} />
             <SkillTest language={"React"} ProficiencyRating={5} />
-            <SkillTest language={"Html"} ProficiencyRating={5} />
-            <SkillTest language={"Css"} ProficiencyRating={5} />
-            <SkillTest language={"Java"} ProficiencyRating={4} />
-            <SkillTest language={"Aws"} ProficiencyRating={3} />
-            <SkillTest language={"Nest JS"} ProficiencyRating={4} />
-            <SkillTest language={"Next Js"} ProficiencyRating={4} />
+            <SkillTest language={"Typescript"} ProficiencyRating={5} />
+            <SkillTest language={"Next Js"} ProficiencyRating={5} />
+            <SkillTest language={"Nest Js"} ProficiencyRating={4} />
+            <SkillTest language={"Django"} ProficiencyRating={4} />
+            <SkillTest language={"Flask"} ProficiencyRating={4} />
+            <SkillTest language={"Version Control"} ProficiencyRating={4} />
             <SkillTest language={"Azure"} ProficiencyRating={3} />
+            <SkillTest language={"Aws"} ProficiencyRating={3} />
         </div>
             <h3>&lt;/my skills &gt;</h3>
       </section>
