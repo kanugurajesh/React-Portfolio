@@ -33,7 +33,7 @@ function Section4() {
             <h1><span>Ø3.</span> &lt;my portfolio&gt;</h1>
             <p>A small gallery of recent projects chosen by me.I've done all of them alone and these projects are only part of my projects</p>
             <div id="grid">
-                <Box name={"Gmate"} github="" link="https://hackathon-1.azurewebsites.net/" tech={["Javascript","Html","Css","React","cohere ai","azure","flask","node","express"]} description="I have a multipurpose bot which can chat with you and send messeges using gmail,sms,whatsapp"/>
+                <Box name={"Udaan Project"} github={""} link={"https://udaaniitb.aicte-india.org/udaan/"} description="Frontend application for the udaan project" tech={["Html","Css","Javascript"]}/>
                 <Box name={"Restaurant App"} github="https://github.com/rajesh604/django_fullstack_project" link="http://rajeshkanugu.pythonanywhere.com/" tech={["django","Html","Css","Javascript","meal api","pythonanywhere"]} description="I have build a restaurant app"/>
                 <Box name={"Image Upload"} link="https://improved-funicular.vercel.app/" tech={["Javascript","Html","Css","React","firebase","hosting","mongodb atlas","supabase"]} description="I have build a image upload app"/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]} description="I have build a space exploration app"/>
@@ -44,7 +44,6 @@ function Section4() {
                 <Box name={"Portfolio Dashboard"} github="" link="https://dashboard-xpsi.vercel.app/" tech={["Javascript","Html","Css","Azure","React Js","mui","ant design"]} description="I have build a portfolio dashboard"/>
                 <Box name={"Portfolio 2"} github="https://github.com/rajesh604/rajesh604.github.io" link="https://rajesh604.github.io" tech={["Javascript","Html","Css","Github Static Pages"]} description="I have build a portfolio"/>
                 <Box name={"Restaurant Menu"} github="https://github.com/rajesh604/restaurant-app" link="https://restaurant-app-c7wi.vercel.app/" tech={["Javascript","Html","Css","React","meal api","hosting"]} description="I have build a restaurant menu"/>
-                <Box name={"Udaan Project"} github={""} link={"https://udaan-project-home.vercel.app/"} description="Frontend application for the udaan project" tech={["Html","Css","Javascript"]}/>
             </div>
             <h2>&lt;/my portfolio&gt;</h2>
         </section>
