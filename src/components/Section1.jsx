@@ -54,7 +54,7 @@ function Section1({windowsize}) {
         <h1>Hi,I'm <span>Rajesh <br /> Full-Stack Web Developer</span> </h1>
       }
 
-      <p>I'm a full-stack web developer and python developer , I love to bring your creativity and ideas to fully functional and scalable web applications.</p>
+      <p>I'm a software engineer with experience in building and deploying websites.I am currently learning more about frontend and backend.</p>
       <div id="icons">
         <ul>
           <li><a href="https://twitter.com/exploringengin1" target="_blank"><img src="https://ik.imagekit.io/hbzknb1hm/icons8-twitter.gif?updatedAt=1688106018779" alt=""/></a></li>
