@@ -51,7 +51,7 @@ function Section1({windowsize}) {
       }
 
       {!windowsize &&
-        <h1>Hi,I'm <span>Rajesh <br /> Full-Stack Web Developer</span> </h1>
+        <h1>Hi,I'm <span>Rajesh <br /> Software Engineer</span> </h1>
       }
 
       <p>I'm a software engineer with experience in building and deploying websites.I am currently learning more about frontend and backend.</p>
