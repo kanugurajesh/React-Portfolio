@@ -47,7 +47,7 @@ function Section1({windowsize}) {
       </div>
       
       {windowsize &&
-        <h1>Hi,I'm <span>Rajesh <br /> Full-Stack <br /> Web Developer</span> </h1>
+        <h1>Hi,I'm <span>Rajesh <br /> Software <br /> Engineer </span> </h1>
       }
 
       {!windowsize &&
