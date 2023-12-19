@@ -33,9 +33,13 @@ function Section4() {
             <h1><span>Ø3.</span> &lt;my portfolio&gt;</h1>
             <p>A small gallery of recent projects chosen by me.I've done all of them alone and these projects are only part of my projects</p>
             <div id="grid">
-                <Box name={"Udaan Project"} github={"https://github.com/rajesh604/udaan_project_home"} link={"https://udaaniitb.aicte-india.org/udaan/"} description="Frontend application for the udaan project" tech={["Html","Css","Javascript"]}/>
-                <Box name={"User Authentication"} github={"https://github.com/rajesh604/userAuthentication"} link={""} description="Developed a Zero cost authentication system for peer developers" tech={["Typescript","MERN","Tailwind"]}/>
-                <Box name={"Restaurant App"} github="https://github.com/rajesh604/django_fullstack_project" link="http://rajeshkanugu.pythonanywhere.com/" tech={["django","Html","Css","Javascript","meal api","pythonanywhere"]} description="A basic restaurant web app which contains menu and can reserve seats"/>
+                <Box name={"Student-LMS"} github={"https://github.com/kanugurajesh/Student-LMS"} link={"https://student-lms.vercel.app/"} description="Gamified Student-LMS" tech={["Typescript", "Next.Js", "Tailwindcss", "Html", "Css"]}/>
+                <Box name={"Developer Blog"} github={"https://github.com/kanugurajesh/kanugurajesh.github.io"} link={"https://kanugurajesh.github.io"} description="My personal developer blog" tech={["Next.Js", "TypeScript", "Tailwindcss", "Markdown"]}/>
+                <Box name={"Siem Converter"} github={"https://github.com/kanugurajesh/Siem-Converter"} link={""} description="A reactJS web app that converts ruleset to siem search query" tech={["Next.Js", "Fastapi", "Python", "TypeScript", "Tailwindcss"]}/>
+                <Box name={"llm app"} github={"https://github.com/kanugurajesh/llm-app"} link="" tech={["Next.js", "Typescript", "Tailwindcss", "Gemini Pro"]}/>
+                <Box name={"SnapScale"} github={"https://github.com/kanugurajesh/SnapScale"} link="" tech={["Javascript", "Electron.js", "Html", "Css"]}/>
+                <Box name={"Movie Recommendation System"} github={"https://github.com/kanugurajesh/Movie-Recommendation-System"} link="" tech={["Sveltekit", "TypeScript", "Html", "Css", "Python","Jupyter Notebook"]}/>
+                <Box name={"Next.js-Auth"} github={"https://github.com/kanugurajesh/Next.js-Auth"} link="" tech={["Next.js", "TypeScript", "MongoDB", "Cryptography", "Tailwindcss"]}/>
                 <Box name={"Image Upload"} link="https://improved-funicular.vercel.app/" tech={["Javascript","Html","Css","React","firebase","hosting","mongodb atlas","supabase"]} description="Share your images publicly and see the shared images"/>
                 <Box name={"Space Exploration"} github="https://github.com/rajesh604/space-tourism" link="https://space-tourism-l7gb.vercel.app/" tech={["Javascript","Html","Css"]} description="Explore the Space,planets and know about some famous astronauts"/>
                 <Box name={"Company Portfolio"} github="https://github.com/rajesh604/rajesh_web_design" link="https://rajesh-web-design.vercel.app/" tech={["Javascript","Html","Css","React Js"]} description="A small company portfolio"/>
