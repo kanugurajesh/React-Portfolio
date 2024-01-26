@@ -31,12 +31,11 @@ import '../css/section3.css'
             <SkillTest language={"React"} ProficiencyRating={5} />
             <SkillTest language={"Typescript"} ProficiencyRating={5} />
             <SkillTest language={"Next Js"} ProficiencyRating={5} />
-            <SkillTest language={"Nest Js"} ProficiencyRating={4} />
             <SkillTest language={"Django"} ProficiencyRating={4} />
             <SkillTest language={"Flask"} ProficiencyRating={4} />
             <SkillTest language={"Version Control"} ProficiencyRating={4} />
             <SkillTest language={"Azure"} ProficiencyRating={3} />
-            <SkillTest language={"Aws"} ProficiencyRating={3} />
+            <SkillTest language={"Google Cloud"} ProficiencyRating={3} />
         </div>
             <h3>&lt;/my skills &gt;</h3>
       </section>
