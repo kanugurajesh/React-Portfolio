@@ -13,3 +13,34 @@ This is a responsive portfolio build for myself
 ![Screenshot 2024-08-06 150519](https://github.com/user-attachments/assets/1ef07168-5b00-45bd-b5e4-7079fd1dfa8a)
 
 ![Screenshot 2024-08-06 150525](https://github.com/user-attachments/assets/bf40a8d9-19be-4fbe-af27-39f6bacc145a)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/React-Portfolio.git
+   ```
+2. Change the directory
+   ```bash
+   cd React-Portfolio
+   ```
+3. Copy the environment variables
+   ```bash
+   cp .env.example .env.local
+   ```
+4. Add the environment variables
+   
+6. Install the packages
+   ```bash
+   npm install
+   ```
+7. Run the project
+   ```bash
+   npm run dev
+   ```
+
+## TechStack
+
+1. React.js
+2. Javascript
+3. Css
