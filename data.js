@@ -18,7 +18,8 @@ const data = [
     {
         name: "LLM-Chat",
         github: "https://github.com/kanugurajesh/LLM-Chat",
-        link: "A RAG application to chat with your documents with complete control over your data you can delete your files in the db and see which files are loaded into the vector database and also delete the vectors of a particular file",
+        link: "",
+        description: "A RAG application to chat with your documents with complete control over your data you can delete your files in the db and see which files are loaded into the vector database and also delete the vectors of a particular file",
         tech: [
             "Typescript",
             "React.Js",
