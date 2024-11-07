@@ -1,6 +1,7 @@
 import "../css/section4.css";
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
+import data from "../../data";
 
 function Box({ name, github, link, tech, description }) {
   return (
@@ -50,19 +51,16 @@ function Section4() {
         alone and these projects are only part of my projects
       </p>
       <div id="grid">
-        <Box
-          name={"SmartDoc"}
-          github={"https://github.com/kanugurajesh/SmartDoc"}
-          link={"https://smart-doc-pearl.vercel.app/"}
-          description="The first open-source RAG (Retrieval-Augmented Generation) application built with Gemini, Pinecone, and Next.js, featuring robust authentication and complete control over your data."
-          tech={[
-            "Typescript",
-            "Next.Js",
-            "Tailwindcss",
-            "Gemini Flash",
-            "Pinecone DB",
-          ]}
-        />
+        {data.map((item) => (
+          <Box
+            key={uuidv4()}
+            name={item.name}
+            github={item.github}
+            link={item.link}
+            description={item.description}
+            tech={item.tech}
+          />
+        ))}
         <Box
           name={"MoodMap"}
           github={"https://github.com/kanugurajesh/MoodMap"}
@@ -76,7 +74,7 @@ function Section4() {
             "Gemini Pro Vision",
             "Xat.io",
             "Remote Patient Monitoring",
-            "shadcn"
+            "shadcn",
           ]}
         />
         <Box
